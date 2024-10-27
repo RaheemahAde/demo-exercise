@@ -8,4 +8,5 @@ Follow these steps to set up and run the tests:
 1. Clone the repository
 2. Navigate to the project directory
 3. Install dependencies: **`npm install`**
-4. Run the tests: **`npx playwright test`**
+4. Install playwright: **`npx playwright install`**
+5. Run the tests: **`npx playwright test`**
