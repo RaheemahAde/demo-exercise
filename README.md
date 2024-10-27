@@ -1,4 +1,4 @@
-# demo-exercise
+# Demo-exercise
 
 This project contains automated tests for the Stubben Edge website using Playwright. The tests cover the brokerage and contact forms, as well as the main navigation links.
 
