@@ -21,7 +21,7 @@ test.describe('Stubben Edge App', () => {
 
         // Navigate to brokerage form
         await homePage.navigateToStartingUp();
-        await homePage.clickStartingUpMenuLink();
+        await homePage.navigateToStartingUpMenuLink();
 
         // Open the form modal
         await brokeragePage.openFormModal();

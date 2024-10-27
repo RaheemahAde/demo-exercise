@@ -38,7 +38,7 @@ export class HomePage {
     /**
      * Clicks the Starting Up menu link and verifies the URL.
      */
-    async clickStartingUpMenuLink() {
+    async navigateToStartingUpMenuLink() {
         await this.startingUpMenuLink.click();
         await expect(this.page).toHaveURL(/starting-an-insurance-brokerage/);
     }
